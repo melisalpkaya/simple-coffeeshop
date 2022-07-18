@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Deneme</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="grid-example.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img id="logo" src="images/coffee-shop.png" alt="">
+        <a class="navbar-brand active" href="#">Coffee Shop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Coffee</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Food Menu</a>
+                <a class="dropdown-item" href="#">Drink Menu</a>
+            
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="team-grid">
+        <div class="container">
+            
+            <div class="col-md-12">
+              <div class="intro">
+                <h2 class="text-center">Coffee Shop</h2>
+                <p class="text-center">her gün 10.00-00.00 arası açık  </p>
+              </div> 
+            </div>
+          
+            <div class="row coffee">
+                
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(images/1.png)">
+                        <div class="cover">
+                            <h3 class="name">Coffee Shop</h3>
+                            <p class="title">Shop</p>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(images/2.png)">
+                        <div class="cover">
+                            <h3 class="name">Coffee Shop</h3>
+                            <p class="title">Dessert</p>
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(images/3.png)">
+                        <div class="cover">
+                            <h3 class="name">Coffee Shop</h3>
+                            <p class="title">Dessert & Coffee </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 item">
+                    <div class="box" style="background-image:url(images/4.png)">
+                        <div class="cover">
+                            <h3 class="name">Coffee Shop</h3>
+                            <p class="title">Coffee</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center"> Yorumlar </h2>
+            </div>
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="images/user (1).png"><br><img src="images/rating (1).png">
+                        <h3 class="name">Melis Alpkaya</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="images/user (1).png"><br><img src="images/rating.png">
+                        <h3 class="name">Efşan Albayrak</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="images/user (1).png"><br><img src="images/rating.png">
+                        <h3 class="name">Özge Varlıoğlu</h3>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Homepage</a></li>
+                <li class="list-inline-item"><a href="#">About Us</a></li>
+                <li class="list-inline-item"><a href="#">Coffee</a></li>
+                <li class="list-inline-item"><a href="#">Gallery</a></li>
+                <li class="list-inline-item"><a href="#">Contact Us</a></li>
+            </ul>
+            <p class="copyright">Coffee Shop © 2018</p>
+        </footer>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  
+</body>
+
+</html>
